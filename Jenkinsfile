@@ -8,7 +8,7 @@ pipeline {
         } 
         stage('stage02-This is my second stage') {
             steps {
-                sh 'pwdd'
+                sh 'pwd'
             }
         }
         stage('stage03-This is my Third stage') {
